@@ -1,0 +1,16 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow - Full-stack task management app deployed on Vercel",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "lint": "cd backend && npm run lint && cd ../frontend && npm run lint"
+  },
+  "keywords": ["task-management", "mern", "vercel", "serverless"],
+  "author": "",
+  "license": "MIT"
+}
+

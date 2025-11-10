@@ -1,0 +1,22 @@
+# Render configuration for TaskFlow backend
+# This file is optional - you can also configure via Render dashboard
+services:
+  - type: web
+    name: taskflow-backend
+    env: node
+    region: oregon  # Change to your preferred region
+    plan: free  # or starter, professional, etc.
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      # Add these via Render dashboard for security:
+      # - MONGO_URI
+      # - JWT_SECRET
+      # - JWT_EXPIRES_IN
+      # - CORS_ORIGIN
+
