@@ -2,6 +2,11 @@
 
 TaskFlow is a full-stack task management application built with the MERN stack. It helps teams and individuals capture tasks, track progress, prioritise work, and stay organised with an intuitive, responsive UI.
 
+<img width="1566" height="786" alt="image" src="https://github.com/user-attachments/assets/b2f47f4c-5ded-4043-ac2f-c4af8817f7ea" />
+
+<img width="1554" height="798" alt="image" src="https://github.com/user-attachments/assets/775bbc5e-e859-45cc-b965-70cf3978f2d5" />
+
+
 ## Features
 
 - 🔐 JWT authentication with secure password hashing
